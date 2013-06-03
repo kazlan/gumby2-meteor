@@ -3,7 +3,7 @@
 	"description": "Gumby Css Framework v2 for Meteor",
 	"homepage": "http://gumbyframework.com/",
 	"author": "Fabio Fumis <f.fumis@gmail.com>",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"git": "https://github.com/redbaron76/gumby-meteor.git",
 	"packages": {
 	}
