@@ -1,5 +1,5 @@
 Package.describe({
-	summary: "Gumby Css Framework v2 for Meteor with Gumby Initialization and mobile checks"
+	summary: "Gumby Css Framework v2"
 });
 
 Package.on_use(function (api, where) {
