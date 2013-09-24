@@ -1,5 +1,5 @@
 Package.describe({
-	summary: "Gumby Css Framework v2"
+	summary: "Gumby Css Framework v2.5"
 });
 
 Package.on_use(function (api, where) {
@@ -14,7 +14,7 @@ Package.on_use(function (api, where) {
 		'css/gumby.css',
 		'js/libs/modernizr-2.6.2.min.js',
 		'js/libs/jquery.mobile.custom.min.js',
-		'js/libs/gumby.js',
+		'js/libs/gumby.min.js',
 		'js/main.js',
 		'js/plugins.js'], 'client');
 

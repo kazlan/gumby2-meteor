@@ -1,9 +1,9 @@
 {
 	"name": "gumby2",
-	"description": "Gumby Css Framework v2 ",
+	"description": "Gumby Css Framework v2.5 ",
 	"homepage": "https://github.com/copleykj/gumby2-meteor",
 	"author": "Kelly Copley <copleykj@gmail.com>",
-	"version": "2.0.0",
+	"version": "2.5.0",
 	"git": "https://github.com/copleykj/gumby2-meteor.git",
 	"packages": {
 	}
