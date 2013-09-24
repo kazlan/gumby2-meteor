@@ -1740,7 +1740,7 @@ form fieldset legend { padding: 5px 10px; }
 .field .radio span, .field .checkbox span { display: inline-block; width: 16px; height: 16px; position: relative; top: 2px; border: solid 1px #cccccc; background: #fefefe; }
 .field .radio span { border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; }
 .field .checkbox span { border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
-.field .radio.checked i, .field .checkbox.checked i { position: absolute; top: 0; left: -7px; }
+.field .radio.checked i, .field .checkbox.checked i { position: absolute; top: -5px; left: -8px; }
 
 .field .text input[type="search"] { -webkit-appearance: textfield; }
 

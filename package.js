@@ -14,7 +14,16 @@ Package.on_use(function (api, where) {
 		'css/gumby.css',
 		'js/libs/modernizr-2.6.2.min.js',
 		'js/libs/jquery.mobile.custom.min.js',
-		'js/libs/gumby.min.js',
+		'js/libs/gumby.js',
+		'js/libs/ui/gumby.checkbox.js',
+		'js/libs/ui/gumby.fixed.js',
+		'js/libs/ui/gumby.navbar.js',
+		'js/libs/ui/gumby.radiobtn.js',
+		'js/libs/ui/gumby.retina.js',
+		'js/libs/ui/gumby.skiplink.js',
+		'js/libs/ui/gumby.tabs.js',
+		'js/libs/ui/gumby.toggleswitch.js',
+		'js/libs/ui/jquery.validation.js',
 		'js/main.js',
 		'js/plugins.js'], 'client');
 
