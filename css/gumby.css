@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
 /**
 * Gumby Framework
 * ---------------
@@ -58,7 +58,11 @@ html, body { height: 100%; }
 .center-text { text-align: center; }
 
 /* Fonts */
-@font-face { font-family: "entypo"; font-style: normal; font-weight: 400; src: url(../fonts/icons/entypo.eot); src: url("../fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("../fonts/icons/entypo.woff") format("woff"), url("../fonts/icons/entypo.ttf") format("truetype"); }
+@font-face {font-family: "entypo"; font-style: normal; font-weight: 400; src: url('/packages/gumby2/fonts/icons/entypo.eot'); src: url("/packages/gumby2/fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("/packages/gumby2/fonts/icons/entypo.woff") format("woff"), url("/packages/gumby2/fonts/icons/entypo.ttf") format("truetype"); }
+@font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 300; src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff'); }
+@font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'); }
+@font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 600; src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff'); }
+@font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 700; src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff'); }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans"; font-weight: 300; color: #444444; text-rendering: optimizeLegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #d04526; }
@@ -516,8 +520,7 @@ img { -ms-interpolation-mode: bicubic; }
 .pretty .success.btn:active, .pretty .success.skiplink:active, .pretty .success.btn:active:hover, .pretty .success.skiplink:active:hover, .success.btn.pretty:active, .success.skiplink.pretty:active, .skiplink.pretty.success:active { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #56c620), color-stop(100%, #91e26a)); background-image: -webkit-linear-gradient(#56c620, #91e26a); background-image: -moz-linear-gradient(#56c620, #91e26a); background-image: -o-linear-gradient(#56c620, #91e26a); background-image: linear-gradient(#56c620, #91e26a); box-shadow: inset 0 0 3px #f0fbea; }
 .btn.pretty.success a, .pretty .success.btn a, .pretty .success.skiplink a, .pretty .success.btn:hover a, .pretty .success.skiplink:hover a, .success.skiplink.pretty:hover a, .pretty .success.btn:active a, .pretty .success.skiplink:active a, .success.skiplink.pretty:active a, .btn.pretty.success input, .pretty .success.btn input, .pretty .success.skiplink input, .pretty .success.btn:hover input, .pretty .success.skiplink:hover input, .success.skiplink.pretty:hover input, .pretty .success.btn:active input, .pretty .success.skiplink:active input, .success.skiplink.pretty:active input, .btn.pretty.success button, .pretty .success.btn button, .pretty .success.skiplink button, .pretty .success.btn:hover button, .pretty .success.skiplink:hover button, .success.skiplink.pretty:hover button, .pretty .success.btn:active button, .pretty .success.skiplink:active button, .success.skiplink.pretty:active button, .skiplink.pretty.success a, .skiplink.pretty.success input, .skiplink.pretty.success button { text-shadow: 0 1px 1px #316b15; }
 
-/* Icons */
-[class^="icon-"] a:before, [class*=" icon-"] a:before, [class^="icon-"] a:after, [class*=" icon-"] a:after, i[class^="icon-"], i[class*=" icon-"] { font-family: "entypo"; position: absolute; text-decoration: none; zoom: 1; }
+* [class ^="icon-"] a:before, [class*=" icon-"] a:before, [class^="icon-"] a:after, [class*=" icon-"] a:after, i[class^="icon-"], i[class*=" icon-"] { font-family: "entypo"; position: absolute; text-decoration: none; zoom: 1; }
 
 i[class^="icon-"], i[class*=" icon-"] { display: inline-block; position: static; min-width: 20px; margin: 0 5px; text-align: center; }
 

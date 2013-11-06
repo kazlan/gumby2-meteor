@@ -64,7 +64,7 @@ Validation.prototype.validate = function() {
 };
 
 // jQuery plugin definition
-$.fn.validation = function(options) {
+Package.jquery.$.fn.validation = function(options) {
 
 	var // extend params with defaults
 		settings = $.extend({
